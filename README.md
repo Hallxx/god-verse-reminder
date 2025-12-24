@@ -1,6 +1,6 @@
 # God Verse Reminder
 
-Never forget that God always love you [Video demo]()
+Never forget that God always love you [Video demo](https://youtu.be/F655f1kfDaQ)
 
 #### Description:
 I am a Christian, and like many people, there are moments in my life when I feel overwhelmed by emotions. Sometimes I feel sad, angry, stressed, anxious, frustrated, or simply tired. In those moments, I need to hear God’s voice and be reminded of His presence, His promises, and His love. I believe that God speaks to us through His Word, and that the Bible is a constant source of comfort, guidance, and strength.
