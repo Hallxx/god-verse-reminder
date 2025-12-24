@@ -17,7 +17,7 @@ By default every verse will appear each 30 minutes, but you can modify it if you
 - Any Chromium-based browser. For example: Google Chrome, Microsoft Edge, Arc
 
 ##### Installing the extension
-![alt text](image-2.png)
+![alt text](image.png)
 
 - **Step** 1: Click on Code
 - **Step** 2: Click on "Download ZIP"
