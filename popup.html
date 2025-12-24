@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Verses Reminder</h2>
+        
+        <label for="minutes">Minutes:  </label>
+        <input type="number" placeholder="minutes" id="minutes" min="1" max="60" value="30"/>
+        <br> 
+
+        <button id="start">Start</button>
+        <button id="reset">Reset</button>
+
+        <div id="countdown" class="countdown-display"></div>
+    </div>
+<script defer src="popup.js"></script>
+</body>
+</html>

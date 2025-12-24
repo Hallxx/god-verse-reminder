@@ -1,0 +1,27 @@
+{
+    "name": "God Reminder",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Reminds you of God's love.",
+    "permissions": [
+        "storage",
+        "tabs",
+        "notifications",
+        "alarms",
+        "nativeMessaging"
+    ],
+
+    "background": {
+        "service_worker": "background.js"
+    },
+    
+    "action": {
+        "default_popup": "popup.html"  
+    },
+
+    "icons": {
+        "16": "cruz_logo.png",
+        "48": "cruz_logo.png",
+        "128": "cruz_logo.png"
+    }
+}
