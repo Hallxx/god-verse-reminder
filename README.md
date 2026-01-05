@@ -1,6 +1,6 @@
 # God Verse Reminder
 
-Never forget that God always loves you. [Video demo](https://youtu.be/F655f1kfDaQ)
+Never forget that God always love you [Video demo](https://youtu.be/F655f1kfDaQ)
 
 ## Description
 
