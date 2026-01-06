@@ -13,6 +13,34 @@ const versiculos = [
 //esperar a que el DOM cargue
 document.addEventListener("DOMContentLoaded", () => {
 
+    const countdownEl = document.getElementById("countdown");
+
+function startCountdown() {
+    const timer = setInterval(() => {
+        chrome.storage.local.get("nextVerseTime", (data) => {
+            if (!data.nextVerseTime) {
+                countdownEl.textContent = "";
+                clearInterval(timer);
+                return;
+            }
+
+            const diff = data.nextVerseTime - Date.now();
+
+            if (diff <= 0) {
+                countdownEl.textContent = "New verse now 📖";
+                clearInterval(timer);
+                return;
+            }
+
+            const minutes = Math.floor(diff / 60000);
+            const seconds = Math.floor((diff % 60000) / 1000);
+
+            countdownEl.textContent =
+                `Next verse in: ${minutes}:${seconds.toString().padStart(2, "0")}`;
+        });
+    }, 1000);
+}
+
 // mandar el mensaje del boton start
 document.getElementById("start").addEventListener("click", () => {
     // primero pedir permiso de notificaciones
@@ -47,4 +75,5 @@ document.getElementById("reset").addEventListener("click", () => {
     chrome.runtime.sendMessage(message);
 })
 
+startCountdown();
 })});

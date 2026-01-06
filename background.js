@@ -79,6 +79,16 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         sendResponse({ success: true });
         });
 
+        const nextTime = Date.now() + minutos * 60 * 1000;
+
+        chrome.storage.local.set({
+            nextVerseTime: nextTime,
+            intervalMinutes: minutos
+        });
+
+        // startCountdown();
+
+
         return true; // 🔥 CRÍTICO
     }
         
@@ -87,6 +97,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             // aquí detiene todo
             // usar el chrome clear alarms
             chrome.alarms.clear("verseReminderAlarm");
+
+            chrome.storage.local.remove(["nextVerseTime", "intervalMinutes"]);
+
+            return true; // 🔥 CRÍTICO
         }
     });
 
