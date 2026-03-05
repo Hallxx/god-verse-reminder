@@ -8,6 +8,8 @@ const versiculos = [
     { texto: "Tu palabra es una lámpara que guía mis pies y una luz para mi camino.", referencia: "Salmos 119:105 (NTV)" },
     { texto: "Nos amamos unos a otros, porque él nos amó primero.", referencia: "1 Juan 4:19 (NTV)" },
     { texto: "El Señor es mi pastor; tengo todo lo que necesito.", referencia: "Salmos 23:1 (NTV)" },
+    { texto: "Estén siempre alegres.", referencia: "1 Tesalonicenses 5:16 (NTV)" },
+    { texto: "Nunca dejen de orar", referencia: "1 Tesalonicenses 5:17 (NTV)" },
 ];
 
 //esperar a que el DOM cargue
