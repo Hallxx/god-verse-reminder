@@ -10,6 +10,7 @@ const versiculos = [
     { texto: "El Señor es mi pastor; tengo todo lo que necesito.", referencia: "Salmos 23:1 (NTV)" },
     { texto: "Estén siempre alegres.", referencia: "1 Tesalonicenses 5:16 (NTV)" },
     { texto: "Nunca dejen de orar", referencia: "1 Tesalonicenses 5:17 (NTV)" },
+    { texto: "Podremos tirar los dados, pero el Señordecide cómo caen.", referencia: "Proverbios 16:33  (NTV)" },
 ];
 
 //esperar a que el DOM cargue
